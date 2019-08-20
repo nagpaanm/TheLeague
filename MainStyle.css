@@ -1,0 +1,116 @@
+
+BorderPane{
+    -fx-text-fill: lightslategray;
+    -fx-alignment: CENTER;
+    -fx-background-color:linear-gradient(white, white, white, white, white);
+}
+
+HBox{
+    -fx-alignment: CENTER;
+}
+
+VBox{
+    -fx-alignment: CENTER;
+}
+
+Label{
+    -fx-text-fill: black;
+    -fx-font-weight:bold;
+}
+
+#main-title{
+   -fx-font-size: 4em;
+   -fx-background-color: linear-gradient(to right, #2566cf 50%, #d11313 50%);
+   -fx-text-fill: white ;
+   -fx-padding:15px;
+}
+
+#title{
+   -fx-font-size: 2em;
+   -fx-font-family: "Arial Black";
+}
+
+TextField:focused{
+}
+
+#playerBox:hover{
+    -fx-background-color:linear-gradient(#ffffff, #fafafa, #f7f7f7);
+}
+
+#continue{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+    -fx-padding:0 20px 0 20px;
+}
+
+#continue:hover{
+    -fx-cursor:hand;
+}
+
+#search{
+    -fx-background-color: linear-gradient(#35ff72, #a9ff00);
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: #395306;
+    -fx-font-weight:bold;
+    -fx-padding:5px 15px;
+    -fx-font-size:1.25em;
+}
+
+#search:hover{
+    -fx-cursor:hand;
+}
+
+#clear{
+    -fx-background-color: linear-gradient(#0d2c3d, #195678);
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+    -fx-padding:5px 15px;
+    -fx-font-size:1.25em;
+}
+
+#clear:hover{
+    -fx-cursor:hand;
+}
+
+#close{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 1,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-text-fill: #395306;
+}
+
+#close:hover{
+    -fx-cursor:hand;
+}
+
+Stage{
+    -fx-padding:30pt;
+}
+
+#searchTitle{
+    -fx-font-size:12pt;
+    -fx-blend-mode: darken;
+}
+
+#footer{
+    -fx-background-color:linear-gradient(#de362a, #f23b2e);
+    -fx-font-size:1.25em;
+    -fx-height:50px;
+}
+
+#author{
+    -fx-text-fill:white;
+}
+
+#rights{
+    -fx-text-fill:white;
+}
