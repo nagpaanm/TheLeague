@@ -1,2 +1,2 @@
 # TheLeague
-TheLeague is a fascinating basketball project that I have dreamed about creating for quite some time..
+TheLeague is a GUI-based 'NBA database' that I developed using Java and
